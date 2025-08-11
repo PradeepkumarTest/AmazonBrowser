@@ -20,7 +20,7 @@ public class LaunchBrowser {
 	@Test 
 	public void getWindowHandles() {
 		
-	String parentwindow=driver.getWindowHandle();	
+	String parentwindow=driver.getWindowHandle();//windowhandles
 	Set<String> s=driver.getWindowHandles();
 	Iterator<String> i1=s.iterator();
 	while(i1.hasNext()) {
@@ -87,3 +87,4 @@ public class LaunchBrowser {
 	}
 
 }
+
